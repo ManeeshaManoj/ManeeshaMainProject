@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ndpam1"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.ndpam1.Login"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.ndpam1.Legal"
+            android:label="@string/title_activity_legal" >
+        </activity>
+        <activity
+            android:name="com.example.ndpam1.Legal2"
+            android:label="@string/title_activity_legal2" >
+        </activity>
+        <activity
+            android:name="com.example.ndpam1.Register"
+            android:label="@string/title_activity_register" >
+        </activity>
+        <activity
+            android:name="com.example.ndpam1.Report"
+            android:label="@string/title_activity_report" >
+        </activity>
+        <activity
+            android:name="com.example.ndpam1.Suggestion"
+            android:label="@string/title_activity_suggestion" >
+        </activity>
+        <activity
+            android:name="com.example.ndpam1.Home"
+            android:label="@string/title_activity_home" >
+        </activity>
+        <activity
+            android:name="com.example.ndpam1.Mainhome"
+            android:label="@string/title_activity_mainhome" >
+        </activity>
+        <activity
+            android:name="com.example.ndpam1.Common"
+            android:label="@string/title_activity_common" >
+        </activity>
+        <activity
+            android:name="com.example.ndpam1.Custom"
+            android:label="@string/title_activity_custom" >
+        </activity>
+    </application>
+
+</manifest>
